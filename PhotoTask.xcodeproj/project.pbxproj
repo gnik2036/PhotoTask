@@ -17,6 +17,18 @@
 		310267BD2789C3AB0061BA99 /* PhotoTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310267BC2789C3AB0061BA99 /* PhotoTaskTests.swift */; };
 		310267C72789C3AB0061BA99 /* PhotoTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310267C62789C3AB0061BA99 /* PhotoTaskUITests.swift */; };
 		310267C92789C3AB0061BA99 /* PhotoTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310267C82789C3AB0061BA99 /* PhotoTaskUITestsLaunchTests.swift */; };
+		3102680C278A0D7D0061BA99 /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026806278A0D7C0061BA99 /* APIPath.swift */; };
+		3102680D278A0D7D0061BA99 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026807278A0D7C0061BA99 /* APIHandler.swift */; };
+		3102680E278A0D7D0061BA99 /* APILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026808278A0D7C0061BA99 /* APILoader.swift */; };
+		3102680F278A0D7D0061BA99 /* ResponseHandler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026809278A0D7C0061BA99 /* ResponseHandler+Extension.swift */; };
+		31026810278A0D7D0061BA99 /* RequestHandler+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102680A278A0D7C0061BA99 /* RequestHandler+Extension.swift */; };
+		31026811278A0D7D0061BA99 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102680B278A0D7D0061BA99 /* APIEnvironment.swift */; };
+		31026815278A16A50061BA99 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026814278A16A50061BA99 /* Constants.swift */; };
+		31026817278A16AD0061BA99 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026816278A16AD0061BA99 /* Observable.swift */; };
+		3102681B278A182B0061BA99 /* PhotosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102681A278A182B0061BA99 /* PhotosAPI.swift */; };
+		3102681F278A19D20061BA99 /* PhotosParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102681E278A19D20061BA99 /* PhotosParameters.swift */; };
+		31026821278A19DA0061BA99 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026820278A19DA0061BA99 /* Photo.swift */; };
+		31026824278A1C430061BA99 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026823278A1C420061BA99 /* PhotosViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,18 @@
 		310267C22789C3AB0061BA99 /* PhotoTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		310267C62789C3AB0061BA99 /* PhotoTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTaskUITests.swift; sourceTree = "<group>"; };
 		310267C82789C3AB0061BA99 /* PhotoTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31026806278A0D7C0061BA99 /* APIPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		31026807278A0D7C0061BA99 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		31026808278A0D7C0061BA99 /* APILoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APILoader.swift; sourceTree = "<group>"; };
+		31026809278A0D7C0061BA99 /* ResponseHandler+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResponseHandler+Extension.swift"; sourceTree = "<group>"; };
+		3102680A278A0D7C0061BA99 /* RequestHandler+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RequestHandler+Extension.swift"; sourceTree = "<group>"; };
+		3102680B278A0D7D0061BA99 /* APIEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		31026814278A16A50061BA99 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31026816278A16AD0061BA99 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		3102681A278A182B0061BA99 /* PhotosAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosAPI.swift; sourceTree = "<group>"; };
+		3102681E278A19D20061BA99 /* PhotosParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosParameters.swift; sourceTree = "<group>"; };
+		31026820278A19DA0061BA99 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		31026823278A1C420061BA99 /* PhotosViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +125,14 @@
 		310267A12789C3A70061BA99 /* PhotoTask */ = {
 			isa = PBXGroup;
 			children = (
-				310267A22789C3A70061BA99 /* AppDelegate.swift */,
-				310267A42789C3A70061BA99 /* SceneDelegate.swift */,
+				31026822278A1C190061BA99 /* ViewModel */,
+				3102681D278A19BD0061BA99 /* Model */,
+				31026819278A181E0061BA99 /* Services */,
+				31026818278A16CC0061BA99 /* Resources */,
+				310267D62789D4DA0061BA99 /* RequestManager */,
 				310267A62789C3A70061BA99 /* ViewController.swift */,
+				310267A42789C3A70061BA99 /* SceneDelegate.swift */,
+				310267A22789C3A70061BA99 /* AppDelegate.swift */,
 				310267A82789C3A70061BA99 /* Main.storyboard */,
 				310267AE2789C3AA0061BA99 /* Assets.xcassets */,
 				310267B02789C3AA0061BA99 /* LaunchScreen.storyboard */,
@@ -128,6 +157,61 @@
 				310267C82789C3AB0061BA99 /* PhotoTaskUITestsLaunchTests.swift */,
 			);
 			path = PhotoTaskUITests;
+			sourceTree = "<group>";
+		};
+		310267D62789D4DA0061BA99 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				3102681C278A18410061BA99 /* Path */,
+				3102680B278A0D7D0061BA99 /* APIEnvironment.swift */,
+				31026807278A0D7C0061BA99 /* APIHandler.swift */,
+				31026808278A0D7C0061BA99 /* APILoader.swift */,
+				3102680A278A0D7C0061BA99 /* RequestHandler+Extension.swift */,
+				31026809278A0D7C0061BA99 /* ResponseHandler+Extension.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		31026818278A16CC0061BA99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31026814278A16A50061BA99 /* Constants.swift */,
+				31026816278A16AD0061BA99 /* Observable.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31026819278A181E0061BA99 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3102681A278A182B0061BA99 /* PhotosAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3102681C278A18410061BA99 /* Path */ = {
+			isa = PBXGroup;
+			children = (
+				31026806278A0D7C0061BA99 /* APIPath.swift */,
+			);
+			path = Path;
+			sourceTree = "<group>";
+		};
+		3102681D278A19BD0061BA99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3102681E278A19D20061BA99 /* PhotosParameters.swift */,
+				31026820278A19DA0061BA99 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31026822278A1C190061BA99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				31026823278A1C420061BA99 /* PhotosViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +345,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31026810278A0D7D0061BA99 /* RequestHandler+Extension.swift in Sources */,
+				31026815278A16A50061BA99 /* Constants.swift in Sources */,
+				3102681F278A19D20061BA99 /* PhotosParameters.swift in Sources */,
 				310267A72789C3A70061BA99 /* ViewController.swift in Sources */,
+				3102680C278A0D7D0061BA99 /* APIPath.swift in Sources */,
+				31026817278A16AD0061BA99 /* Observable.swift in Sources */,
 				310267A32789C3A70061BA99 /* AppDelegate.swift in Sources */,
+				3102680D278A0D7D0061BA99 /* APIHandler.swift in Sources */,
 				310267A52789C3A70061BA99 /* SceneDelegate.swift in Sources */,
+				31026824278A1C430061BA99 /* PhotosViewModel.swift in Sources */,
+				31026821278A19DA0061BA99 /* Photo.swift in Sources */,
+				3102681B278A182B0061BA99 /* PhotosAPI.swift in Sources */,
+				31026811278A0D7D0061BA99 /* APIEnvironment.swift in Sources */,
 				310267AD2789C3A70061BA99 /* PhotoTask.xcdatamodeld in Sources */,
+				3102680F278A0D7D0061BA99 /* ResponseHandler+Extension.swift in Sources */,
+				3102680E278A0D7D0061BA99 /* APILoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
