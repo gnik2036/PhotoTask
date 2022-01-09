@@ -135,7 +135,7 @@ class PhotosViewModel: PhotosViewModelInputs, PhotosViewModelOutputs, PhotosView
     func prepareAdsData(){
         var values = [String]()
         for _ in stride(from: 0, to: photos.count, by: self.AD_INTERVAL - 1) {
-            values.append("here your AD")
+            values.append("Vodafone❤️" )
         }
         self.ads = values
     }

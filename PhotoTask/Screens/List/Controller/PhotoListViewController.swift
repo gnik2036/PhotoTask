@@ -70,9 +70,11 @@ class PhotoListViewController: UIViewController {
         viewModel.outputs.showLoading = { [weak self] shouldShow in
             guard let self = self else { return }
             if shouldShow{
+                self.activityIndicatorView.isHidden = false
                 self.activityIndicatorView.startAnimating()
             }else{
-                DispatchQueue.main.async {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    self.activityIndicatorView.isHidden = true
                 self.activityIndicatorView.stopAnimating()
                 }
             }
