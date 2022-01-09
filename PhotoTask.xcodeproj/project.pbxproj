@@ -29,6 +29,7 @@
 		3102681F278A19D20061BA99 /* PhotosParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102681E278A19D20061BA99 /* PhotosParameters.swift */; };
 		31026821278A19DA0061BA99 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026820278A19DA0061BA99 /* Photo.swift */; };
 		31026824278A1C430061BA99 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026823278A1C420061BA99 /* PhotosViewModel.swift */; };
+		31026827278A7E560061BA99 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 31026826278A7E560061BA99 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31026827278A7E560061BA99 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +232,9 @@
 			dependencies = (
 			);
 			name = PhotoTask;
+			packageProductDependencies = (
+				31026826278A7E560061BA99 /* SDWebImage */,
+			);
 			productName = PhotoTask;
 			productReference = 3102679F2789C3A70061BA99 /* PhotoTask.app */;
 			productType = "com.apple.product-type.application";
@@ -302,6 +307,9 @@
 				Base,
 			);
 			mainGroup = 310267962789C3A70061BA99;
+			packageReferences = (
+				31026825278A7E550061BA99 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 310267A02789C3A70061BA99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -720,6 +728,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31026825278A7E550061BA99 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31026826278A7E560061BA99 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31026825278A7E550061BA99 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		310267AB2789C3A70061BA99 /* PhotoTask.xcdatamodeld */ = {
