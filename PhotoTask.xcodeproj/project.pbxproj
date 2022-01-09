@@ -147,14 +147,11 @@
 		310267A12789C3A70061BA99 /* PhotoTask */ = {
 			isa = PBXGroup;
 			children = (
-				31026840278B35F30061BA99 /* View */,
-				3102683A278B33780061BA99 /* Controller */,
+				310267D62789D4DA0061BA99 /* RequestManager */,
+				3102684A278B5A640061BA99 /* Screens */,
 				31026828278A7F2A0061BA99 /* Utilities */,
-				31026822278A1C190061BA99 /* ViewModel */,
-				3102681D278A19BD0061BA99 /* Model */,
 				31026819278A181E0061BA99 /* Services */,
 				31026818278A16CC0061BA99 /* Resources */,
-				310267D62789D4DA0061BA99 /* RequestManager */,
 				310267A42789C3A70061BA99 /* SceneDelegate.swift */,
 				310267A22789C3A70061BA99 /* AppDelegate.swift */,
 				310267A82789C3A70061BA99 /* Main.storyboard */,
@@ -284,6 +281,33 @@
 				31026847278B37A20061BA99 /* AdTableViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3102684A278B5A640061BA99 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3102684B278B5A740061BA99 /* List */,
+				3102684C278B5AA30061BA99 /* ItemDetails */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3102684B278B5A740061BA99 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				3102681D278A19BD0061BA99 /* Model */,
+				31026840278B35F30061BA99 /* View */,
+				31026822278A1C190061BA99 /* ViewModel */,
+				3102683A278B33780061BA99 /* Controller */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		3102684C278B5AA30061BA99 /* ItemDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ItemDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
