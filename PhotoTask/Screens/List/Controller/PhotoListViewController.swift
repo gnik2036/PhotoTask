@@ -72,8 +72,17 @@ class PhotoListViewController: UIViewController {
             if shouldShow{
                 self.activityIndicatorView.startAnimating()
             }else{
+                DispatchQueue.main.async {
                 self.activityIndicatorView.stopAnimating()
+                }
             }
+        }
+        viewModel.outputs.showPhotoInFullScreen = { [weak self] detailsViewModel in
+            guard let self = self else { return }
+            let newController = ItemDetailsViewController.instantiate(from: .main)
+//            newController.modalPresentationStyle = .fullScreen //or .overFullScreen for transparency
+            newController.viewModel = detailsViewModel
+            self.present(newController, animated: true, completion: nil)
         }
     }
     

@@ -40,6 +40,9 @@
 		3102683E278B33990061BA99 /* AdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102683D278B33990061BA99 /* AdTableViewCell.swift */; };
 		31026844278B36920061BA99 /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31026842278B36920061BA99 /* PhotoTableViewCell.xib */; };
 		31026849278B37A20061BA99 /* AdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31026847278B37A20061BA99 /* AdTableViewCell.xib */; };
+		3102684E278B5EC30061BA99 /* ItemDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102684D278B5EC30061BA99 /* ItemDetailsViewModel.swift */; };
+		31026850278B5ECD0061BA99 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102684F278B5ECD0061BA99 /* ItemDetailsViewController.swift */; };
+		31026852278B6F7E0061BA99 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31026851278B6F7D0061BA99 /* Storyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,9 @@
 		3102683D278B33990061BA99 /* AdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdTableViewCell.swift; sourceTree = "<group>"; };
 		31026842278B36920061BA99 /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoTableViewCell.xib; sourceTree = "<group>"; };
 		31026847278B37A20061BA99 /* AdTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdTableViewCell.xib; sourceTree = "<group>"; };
+		3102684D278B5EC30061BA99 /* ItemDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewModel.swift; sourceTree = "<group>"; };
+		3102684F278B5ECD0061BA99 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		31026851278B6F7D0061BA99 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +254,7 @@
 		31026829278A7F3A0061BA99 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				31026851278B6F7D0061BA99 /* Storyboard.swift */,
 				3102682A278A7F9B0061BA99 /* UIImagedownloadUsingURL.swift */,
 				3102682C278A7FA30061BA99 /* UITableViewCell+identifier.swift */,
 			);
@@ -306,6 +313,8 @@
 		3102684C278B5AA30061BA99 /* ItemDetails */ = {
 			isa = PBXGroup;
 			children = (
+				3102684D278B5EC30061BA99 /* ItemDetailsViewModel.swift */,
+				3102684F278B5ECD0061BA99 /* ItemDetailsViewController.swift */,
 			);
 			path = ItemDetails;
 			sourceTree = "<group>";
@@ -449,12 +458,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31026850278B5ECD0061BA99 /* ItemDetailsViewController.swift in Sources */,
 				3102683E278B33990061BA99 /* AdTableViewCell.swift in Sources */,
 				31026810278A0D7D0061BA99 /* RequestHandler+Extension.swift in Sources */,
 				31026815278A16A50061BA99 /* Constants.swift in Sources */,
 				3102683C278B338E0061BA99 /* PhotoTableViewCell.swift in Sources */,
 				3102682B278A7F9B0061BA99 /* UIImagedownloadUsingURL.swift in Sources */,
 				3102681F278A19D20061BA99 /* PhotosParameters.swift in Sources */,
+				31026852278B6F7E0061BA99 /* Storyboard.swift in Sources */,
 				310267A72789C3A70061BA99 /* PhotoListViewController.swift in Sources */,
 				3102680C278A0D7D0061BA99 /* APIPath.swift in Sources */,
 				31026817278A16AD0061BA99 /* Observable.swift in Sources */,
@@ -470,6 +481,7 @@
 				31026837278B1BFD0061BA99 /* PhotoCellViewModel.swift in Sources */,
 				31026835278AF3430061BA99 /* PhotosDelegate.swift in Sources */,
 				310267AD2789C3A70061BA99 /* PhotoTask.xcdatamodeld in Sources */,
+				3102684E278B5EC30061BA99 /* ItemDetailsViewModel.swift in Sources */,
 				3102680F278A0D7D0061BA99 /* ResponseHandler+Extension.swift in Sources */,
 				3102682D278A7FA30061BA99 /* UITableViewCell+identifier.swift in Sources */,
 				3102680E278A0D7D0061BA99 /* APILoader.swift in Sources */,

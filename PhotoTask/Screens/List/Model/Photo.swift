@@ -11,10 +11,12 @@ struct PhotoModel: Codable {
     let id: String
     let author: String?
     let downloadUrl: String?
+    let url : String?
     
     enum CodingKeys: String, CodingKey {
         case id = "id"
         case author = "author"
         case downloadUrl = "download_url"
+        case url = "url" 
     }
 }

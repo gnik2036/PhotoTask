@@ -5,7 +5,6 @@
 //  Created by Mohammed Hassan on 09/01/2022.
 
 import UIKit
-import SDWebImage
 
 class PhotoTableViewCell: UITableViewCell {
 
@@ -22,7 +21,7 @@ class PhotoTableViewCell: UITableViewCell {
     // MARK: - Configuration methods
     
     func configure(with viewModel: PhotoCellViewModelProtocol){
-        self.authorNameLabel.text = viewModel.outputs.authorName
-        self.photoImageView.downloadUsingURL(url: viewModel.outputs.photoUrl)
+        self.authorNameLabel.text = viewModel.authorName
+        self.photoImageView.downloadUsingURL(url: viewModel.photoUrl)
     }
 }
