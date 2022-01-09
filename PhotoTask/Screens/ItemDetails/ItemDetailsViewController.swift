@@ -43,10 +43,13 @@ class ItemDetailsViewController: UIViewController {
     
     
     func setupData(){
-        
-        self.photoImageView.sd_setImage(with: URL(string: viewModel.photoUrl))
-        photoImageView.frame = UIScreen.main.bounds
         photoImageView.backgroundColor = .black
+        self.photoImageView.sd_setImage(with: URL(string: viewModel.photoUrl)){ image, _, _, _ in
+            DispatchQueue.main.async {
+                self.photoImageView.makeDominantColor()
+            }
+        }
+
 
 
     }

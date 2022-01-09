@@ -21,9 +21,7 @@ class PhotosDataSource: NSObject, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let row = viewModel.inputs.photoRow(for: indexPath) {
-            print (PhotoTableViewCell.identifier)
-            
+        if let row = viewModel.inputs.photoRow(for: indexPath) {            
             guard let cell = tableView.dequeueReusableCell(withIdentifier: PhotoTableViewCell.identifier, for: indexPath) as? PhotoTableViewCell else {
                 return UITableViewCell()
             }
